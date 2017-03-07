@@ -1,0 +1,56 @@
+commandline difference between two files:
+in mac:
+diff -u file1 file2
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+difference btw. files are the places where behaviour changing error occurs.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- if I introduce a new change, which later on changes the behauvior of the program, I can roll-back if it doesn't work out.
+- I can colloborate with other people.
+- I can see the evolution of the code.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: Commiting after one logical change, not too crowded history, history would be more comprehensible
+Cons: if you forget to commit then you have the danger of losing your data.
+
+git diff --> similar to diff -u
+commit id, and logical description
+
+git log --stat
+filename| 7 ++++ ---
+7: number of changes
++: for additions
+-: for deletions
+
+git diff commit_id1 commit_id2
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+In programming files could be more often related, for example html-css-js files.
+
+git clone
+
+git config --global color.ui auto ==> for making changes colorful
+
+
+How can you use the commands git log and git diff to view the history of files?
+git diff with commit-ids
+
+git log
+older commit is below.
+
+git checkout commit-id
+
+How might using version control make you more confident to make changes that could break something?
+I can checkout an older version and try something big without the fear of breaking something.
+
+git init ==> repository olmayan bir directoryde git yaratmak icin
+
+
+
+
+
+
