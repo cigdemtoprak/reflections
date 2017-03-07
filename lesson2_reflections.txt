@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+git init
+we let git know where the repository files will be.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- it only contains the files you want to commit, not all files you work on. it lets you think twice if you really commit something.
