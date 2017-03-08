@@ -4,3 +4,13 @@ we let git know where the repository files will be.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - it only contains the files you want to commit, not all files you work on. it lets you think twice if you really commit something.
+
+git diff ==> difference between working directory and staging
+git diff --staged ==> difference between staging and repository
+
+git reset --hard
+discard any changes to working directory and staging area
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can make sure I add all changes to staging area regarding the logical change
+
