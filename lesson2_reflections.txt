@@ -14,3 +14,13 @@ discard any changes to working directory and staging area
 How can you use the staging area to make sure you have one commit per logical change?
 I can make sure I add all changes to staging area regarding the logical change
 
+git branch ==> hangi branchler var onu gösteriyor, aktif olan *
+
+git branch newbranchname ==> branch yaratiyor
+
+git checkout newbranchname ==> new branchi aktif yapiyor, ilk yaratildiginda master branchin kodu var
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- if I want to make different versions of the code or I want to try something without breaking stuff.
+
+
