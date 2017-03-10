@@ -34,5 +34,22 @@ A commit is reachable if they are in the same line (geriye dönük olarak).
 How do the diagrams help you visualize the branch structure?
 - we can understand and visualize which branch has which commits. the implementation structure.
 
+Merging into the master-branch: new commit has now two parents.
+Then we delete the joinie (coins in the example), new master has the added features and master changes, and all commits from both are reachable.
+
+git merge master coins ==> merges coins into masters
+
+git show commit-id ==> difference to parent
+
+git branch -d coins ==> delete the coins label
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- all changes from the new branch is incorparated into the master branch, the version resulting from the merge includes commits of both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- resolving the conflicts manually gives us more control over the program.
+
+
+
 
 
