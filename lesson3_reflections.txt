@@ -1,1 +1,10 @@
-git remote
+We create a repository in Github first.
+
+git remote ==> to see if I have a remote repository in Cloud
+git remote add remotename url
+git remote -v (verbose) ==> to check the remote url
+git push origin master
+
+When would you want to use a remote repository rather than keeping all your work local?
+- if I'm collabrating with others
+- keep a copy of my work in cloud
