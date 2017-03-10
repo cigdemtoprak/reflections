@@ -8,3 +8,6 @@ git push origin master
 When would you want to use a remote repository rather than keeping all your work local?
 - if I'm collabrating with others
 - keep a copy of my work in cloud
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+- in local I might be experimenting and have the latest changes, pulling automatically may overwrite my code.
