@@ -3,7 +3,7 @@ git init
 we let git know where the repository files will be.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-- it only contains the files you want to commit, not all files you work on. it lets you think twice if you really commit something.
+- it only contains the files you want to commit, not all files you work on. it lets you think twice if you really want to commit something.
 
 git diff ==> difference between working directory and staging
 git diff --staged ==> difference between staging and repository
@@ -22,5 +22,17 @@ git checkout newbranchname ==> new branchi aktif yapiyor, ilk yaratildiginda mas
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 - if I want to make different versions of the code or I want to try something without breaking stuff.
+- context switching
+- master branch: production quality
+- branch is good for compartmentalizing
+- branch is good if you're bored, and want to work on something new
+
+Each commit knows its parent. They don't care about the branches. Branches store information about branches.
+
+A commit is reachable if they are in the same line (geriye dönük olarak).
+
+How do the diagrams help you visualize the branch structure?
+- we can understand and visualize which branch has which commits. the implementation structure.
+
 
 
